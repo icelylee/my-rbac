@@ -1,0 +1,35 @@
+@use "./variables.scss" as *;
+// 弹性居中
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// 文本溢出
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// 卡片通用
+.card {
+  background: #ffffff ;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+}
+
+// 页面边距
+.page-wrap {
+  padding: $gap-lg;
+  background: $bg-page;
+  min-height: 100%;
+}

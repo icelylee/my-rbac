@@ -1,0 +1,40 @@
+@use "./variables.scss" as *;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 14px;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+}
+
+img {
+  display: block;
+}
