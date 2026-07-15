@@ -12,8 +12,16 @@
         <el-icon><HomeFilled /></el-icon>
         <span>首页</span>
       </el-menu-item>
+      <el-sub-menu index="/system">
+        <template #title>系统管理</template>
+        <el-menu-item index="/system/user">用户管理</el-menu-item>
+        <el-menu-item index="/system/role">角色管理</el-menu-item>
+        <el-menu-item index="/system/menu">菜单管理</el-menu-item>
+      </el-sub-menu>
     </el-menu>
+    
   </el-aside>
+  
 </template>
 
 <script setup lang="ts">

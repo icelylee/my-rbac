@@ -6,7 +6,7 @@
     "allowArbitraryExtensions": true,
     // 移除废弃的baseUrl，只保留paths别名
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     },
     /* Linting */
     "noUnusedLocals": true,
